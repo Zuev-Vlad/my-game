@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой игра типа гонок</title>
+    <style type="text/css">
+        .body {
+            margin: 0;
+            padding:0;
+            width: 100%;
+            min-height: 100vh;
+        }
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            flex-flow: 1;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .road-canvas {
+            width: 100%;
+            height: 100%;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="game-container" data-container="game">
+    <canvas id='road-game' class="road-canvas" width="1" height="1"></canvas>
+</div>
+<script src="rally_copy.js"></script>
+</body>
+</html>
